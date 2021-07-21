@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans:wght@300&family=STIX+Two+Math&display=swap');
+
+body{
+    background: #1d1d1d url(https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/0/05/Tbl-bg.jpg);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+    height: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background:#cecece70;
+    border-radius: 10px;
+}
+*::selection{
+    background-color: #ff2a2b;
+    color: #ffffff;
+}
+a:link{
+    text-decoration: none;
+}
+
+.title{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0 60px 0;
+    text-shadow:0px 0px 3px #ffffff;
+    transition: .5s;
+    max-width: 100%;
+    max-height: 250px;
+    font-family: 'STIX Two Math', serif;
+}
+.title:hover{
+    text-shadow:0px 0px 6px #ffffff;
+}
+.title img{
+    margin: auto 15px;
+    max-width: 50px;
+}
+.title h1{
+    margin-top: 10px;
+}

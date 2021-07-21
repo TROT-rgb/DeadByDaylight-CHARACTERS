@@ -1,0 +1,58 @@
+.container-info{
+    color: #ffffff;
+    background: #000000 url(https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/0/05/Tbl-bg.jpg);
+    padding: 10px;
+    margin:50px;
+}
+
+.info-article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.25s;
+    margin-bottom: 40px;
+}
+
+.info-article img{
+    max-width: 400px;
+    margin: 40px;
+}
+.info-article:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.info-article div{
+    max-width: 600px;
+    max-height: 400px;
+    overflow: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.videoyt{
+    display: flex;
+    justify-content: center;
+    margin:110px 0 0 0;
+}
+
+.videoyt iframe{
+    transition: .5s;
+}
+.videoyt iframe:hover{
+    box-shadow:0px 0px 18px #ffffff;
+}
+
+.line{
+    height: 2px;
+    background: #ffffff;
+    border: none;
+    opacity: .5;
+    display: none;
+}
+
+@media only screen and (max-width:1200px){
+    .line{
+        display: block;
+    }
+}

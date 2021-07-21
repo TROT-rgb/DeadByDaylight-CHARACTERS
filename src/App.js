@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{useState} from 'react';
+import './styles/index.css';
+import './styles/Nav.css';
+import './styles/Info.css';
+import './styles/Cards.css';
+import './styles/Footer.css';
+import Imagenes from './resources/Imagenes';
+import Nav from './components/Nav.jsx';
+import Slider from './components/Slider';
+import Info from './components/Info';
+import Survivors from './components/Survivors';
+import Killers from './components/Killers';
+import Avatars from './components/Avatars';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="inicio">
+      <div className="App">
+        <Nav />
+        <br></br>
+        <Slider />
+        <Info />
+          <div className="title" id="title1">
+            <h1>Survivors</h1>
+            <img src={Imagenes.logo1}></img>
+          </div>
+        <Survivors />
+          <div className="title" id="title2">
+            <h1>Killers</h1>
+            <img src={Imagenes.logo2}></img>
+          </div>
+        <Killers />
+        <Footer />
+      </div>
     </div>
   );
 }
