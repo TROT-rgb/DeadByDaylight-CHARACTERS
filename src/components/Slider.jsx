@@ -30,7 +30,7 @@ const Slider = () => {
                     <span className="sr-only">Next</span>
                 </a>
 
-                <ol className="carousel-indicators">
+                <ol className="carousel-indicators" id="info_carousel-indicators">
                     <li data-target="#carousel1" data-slide-to="0" className="active"></li>
                     <li data-target="#carousel1" data-slide-to="1"></li>
                     <li data-target="#carousel1" data-slide-to="2"></li>

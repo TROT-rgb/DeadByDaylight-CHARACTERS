@@ -3,15 +3,16 @@
     background: #000000 url(https://i.pinimg.com/originals/e8/8f/30/e88f30d66482e196c7096c4c44132e1c.jpg);
     color: #ffffff;
     max-width: 1200px;
-    max-height: 620px;
-    margin:20px auto;
+    max-height: 600px;
+    margin: 35px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     overflow: auto;
     border-radius: 50px;
-    box-shadow: 4px 4px 8px 1px #353535;
+    border: #e9e9e9 solid 2px;
+    box-shadow: 4px 4px 8px 1px #616161;
 }
 
 .card-container{

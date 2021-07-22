@@ -21,12 +21,14 @@ function App() {
         <br></br>
         <Slider />
         <Info />
-          <div className="title" id="title1">
+          <hr className="separador-titulo" id="title1"></hr>
+          <div className="title">
             <h1>Survivors</h1>
             <img src={Imagenes.logo1}></img>
           </div>
         <Survivors />
-          <div className="title" id="title2">
+          <hr className="separador-titulo" id="title2"></hr>
+          <div className="title">
             <h1>Killers</h1>
             <img src={Imagenes.logo2}></img>
           </div>

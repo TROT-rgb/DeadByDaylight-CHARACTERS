@@ -3,7 +3,7 @@ import Imagenes from '../resources/Imagenes';
 
 const Info = () => {
     return ( 
-        <section className='container-info' id="info">
+        <section className='container-info'>
             <article className='info-article'>
                 <div>  
                     <h1>Dead By Daylight</h1>
