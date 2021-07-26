@@ -8,6 +8,7 @@ import textura from './img/textura.jpg';
 import textura2 from './img/textura2.jpg';
 import info1 from './img/info1.png';
 import info2 from './img/endgame.png';
+import logometamask from './img/logometamask.png';
 
 
 /*import surv{survs} from './img/survivors/'{survs}'.png';*/
@@ -70,7 +71,7 @@ import kils24 from './img/killers/24.png';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-    logodbd,logo1,logo2,
+    logodbd,logo1,logo2,logometamask,
     textura,textura2,
     slider1,slider2,slider3,
     info1,info2,

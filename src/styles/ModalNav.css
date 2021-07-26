@@ -15,7 +15,7 @@
 }
 
 .modalnav-style{
-    background: #ffffff;
+    background: #eeeeee;
     border-radius: 15px;
     min-width: 300px;
     width: 500px;
@@ -24,13 +24,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+.modalnav-style img{
+    max-width: 250px;
 }
 
-.test-modal{
+.item-modal{
     width: 300px;
-    margin-top: 50px;
+    margin: 25px;
+    text-align: center;
 }
 .boton-close{
     align-self: flex-end;
     border-radius: 5px;
 }
+
