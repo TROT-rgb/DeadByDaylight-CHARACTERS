@@ -36,6 +36,7 @@
     flex-direction: row;
     align-items: center;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 .p-footer p{
     font-size: 15px;

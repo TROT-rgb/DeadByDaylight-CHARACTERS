@@ -53,16 +53,21 @@
 }
 
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:930px){
     .p-responsive{
         display: none;
     }
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:700px){
     .p-responsive2{
         display: none;
     }
-    .container-nav img{
-        margin: 10px;
+}
+
+@media only screen and (max-width:430px){
+    .buy{
+        font-size: 15px;
+        padding: 30px;
     }
+    
 }

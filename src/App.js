@@ -4,6 +4,7 @@ import './styles/Nav.css';
 import './styles/Info.css';
 import './styles/Cards.css';
 import './styles/Footer.css';
+import './styles/Slider.css';
 import Imagenes from './resources/Imagenes';
 import Nav from './components/Nav.jsx';
 import Slider from './components/Slider';

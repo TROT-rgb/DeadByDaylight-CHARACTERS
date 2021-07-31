@@ -9,15 +9,15 @@ const Slider = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <a href="https://youtu.be/ZhXXU0efIEQ" target="_blank" rel="noreferrer">
-                            <img src={Imagenes.slider1} alt="" width="1920" height="1080" ></img></a>
+                            <img src={Imagenes.slider1} alt="" ></img></a>
                     </div>
                     <div className="carousel-item">
                         <a href="https://youtu.be/DF_MRhPTO78" target="_blank" rel="noreferrer">
-                            <img src={Imagenes.slider2} alt="" width="1920" height="1080"></img></a>
+                            <img src={Imagenes.slider2} alt="" ></img></a>
                     </div>
                     <div className="carousel-item">
                         <a href="https://youtu.be/ov1i5TYUTJg" target="_blank" rel="noreferrer">
-                            <img src={Imagenes.slider3} alt="" width="1920" height="1080"></img></a>
+                            <img src={Imagenes.slider3} alt="" ></img></a>
                     </div>
                 </div>
 
