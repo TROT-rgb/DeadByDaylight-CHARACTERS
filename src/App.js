@@ -12,6 +12,7 @@ import Info from './components/Info';
 import Survivors from './components/Survivors';
 import Killers from './components/Killers';
 import Avatars from './components/Avatars';
+import Section from "./components/Section"
 import Footer from './components/Footer';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <img src={Imagenes.logo2}></img>
           </div>
         <Killers />
+        <Section />
         <Footer />
       </div>
     </div>

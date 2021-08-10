@@ -1,5 +1,6 @@
 import React from 'react';
 import Imagenes from '../resources/Imagenes';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Slider = () => {
     
