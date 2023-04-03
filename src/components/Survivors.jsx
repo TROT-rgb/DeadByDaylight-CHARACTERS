@@ -32,6 +32,12 @@ const Survivors = () => {
         { id:Imagenes.surv25 , nombre:"Yun-jin" , info:"Fue presentada como la Superviviente del CAPÍTULO XIX: All-Kill, un DLC del capítulo lanzado el 30 de marzo de 2021." },
         { id:Imagenes.surv26 , nombre:"Jill" , info:"Fue presentada como una de los dos Supervivientes del CAPÍTULO XX: Resident Evil, un DLC del capítulo lanzado el 15 de junio de 2021.Se origina en la franquicia de videojuegos Resident Evil, específicamente en el remake de Resident Evil 3 de 2020." },
         { id:Imagenes.surv27 , nombre:"Leon"  , info:"Fue presentado como uno de los dos Supervivientes del CAPÍTULO XX: Resident Evil, un DLC del capítulo lanzado el 15 de junio de 2021.Se origina en la franquicia de videojuegos Resident Evil, específicamente en el remake de Resident Evil 2 de 2019."},
+        { id:Imagenes.surv28 , nombre:"Mikaela"  , info:"Mikaela Reid es una joven mística que es capaz de alterar el rumbo del Trial gracias a sus habilidades sobrenaturalales."},
+        { id:Imagenes.surv29 , nombre:"Jonah"  , info:"Fue introducido como superviviente en el CAPÍTULO 22: Portrait of a Murder, el DLC se publicó el 30 de Noviembre de 2021."},
+        { id:Imagenes.surv30 , nombre:"Yoichi"  , info:"Fue introducido como superviviente en el CAPÍTULO 23: Sadako Rising, el DLC se publicó el 8 de marzo de 2022."},
+        { id:Imagenes.surv31 , nombre:"Haddie"  , info:"Fue introducida como superviviente en el CAPÍTULO 24: Roots of Dread, el DLC se publicó el 7 de junio de 2022."},
+        { id:Imagenes.surv32 , nombre:"Ada Wong"  , info:"Fue introducida como una de las 2 Supervivientes del CHAPTER 25: Resident Evil™: PROJECT W, un DLC lanzado el 30 de Agosto de 2022."},
+        { id:Imagenes.surv33 , nombre:"Rebecca"  , info:"Fue introducida como una de las 2 Supervivientes del CHAPTER 25: Resident Evil™: PROJECT W, un DLC lanzado el 30 de Agosto de 2022."},
     ]);
 
     return ( 

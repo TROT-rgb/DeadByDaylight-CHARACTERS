@@ -29,6 +29,11 @@ const Killers = () => {
         {id:Imagenes.kils22 , nombre:"Twins" , info:"Fueron presentados como The Killer of CHAPTER XVIII: A Binding of Kin, un DLC del capítulo lanzado el 1 de diciembre de 2020."},
         {id:Imagenes.kils23 , nombre:"Trickster" , info:"Fue presentado como el Asesino del CAPÍTULO XIX: All-Kill, un DLC del capítulo lanzado el 30 de marzo de 2021."},
         {id:Imagenes.kils24 , nombre:"Nemesis" , info:"Fue presentado como el Asesino del CAPÍTULO XX: Resident Evil, un DLC del capítulo lanzado el 15 de junio de 2021.Se origina en la franquicia de videojuegos Resident Evil, específicamente en el remake 2020 de Resident Evil 3."},
+        {id:Imagenes.kils25 , nombre:"Cenobita" , info:"Fue presentado como el Asesino del CAPÍTULO 21: Hellraiser™ , un Capítulo DLC lanzado el 7 de septiembre de 2021."},
+        {id:Imagenes.kils26 , nombre:"Artista" , info:"Fue presentada como la Asesina del CAPÍTULO 22: Retrato de un asesinato , un capítulo DLC lanzado el 30 de noviembre de 2021."},
+        {id:Imagenes.kils27 , nombre:"Onryō" , info:"Fue presentada como la Asesina del CAPÍTULO 23: Sadako Rising , un Capítulo DLC lanzado el 8 de marzo de 2022."},
+        {id:Imagenes.kils28 , nombre:"Draga" , info:"Se presentó como el Asesino del CAPÍTULO 24: Roots of Dread , un Capítulo DLC lanzado el 7 de junio de 2022."},
+        {id:Imagenes.kils29 , nombre:"Mastermind" , info:"Fue presentado como el Asesino del CAPÍTULO 25: Resident Evil™: PROYECTO W , un capítulo DLC lanzado el 30 de agosto de 2022."},
     ]);
 
 

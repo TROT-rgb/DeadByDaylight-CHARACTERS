@@ -1,4 +1,3 @@
-import React from 'react';
 import Imagenes from '../resources/Imagenes';
 
 const Slider = () => {
@@ -8,15 +7,15 @@ const Slider = () => {
             <div id="carousel1" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <a href="https://youtu.be/ZhXXU0efIEQ" target="_blank" rel="noreferrer">
+                        <a href="https://www.youtube.com/watch?v=ZhXXU0efIEQ" target="_blank" rel="noreferrer">
                             <img src={Imagenes.slider1} alt="" ></img></a>
                     </div>
                     <div className="carousel-item">
-                        <a href="https://youtu.be/DF_MRhPTO78" target="_blank" rel="noreferrer">
+                        <a href="https://www.youtube.com/watch?v=SyqgEK0CEVE" target="_blank" rel="noreferrer">
                             <img src={Imagenes.slider2} alt="" ></img></a>
                     </div>
                     <div className="carousel-item">
-                        <a href="https://youtu.be/ov1i5TYUTJg" target="_blank" rel="noreferrer">
+                        <a href="https://www.youtube.com/watch?v=ov1i5TYUTJg" target="_blank" rel="noreferrer">
                             <img src={Imagenes.slider3} alt="" ></img></a>
                     </div>
                 </div>

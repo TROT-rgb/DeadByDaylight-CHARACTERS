@@ -1,4 +1,3 @@
-import React from 'react';
 import Imagenes from '../resources/Imagenes';
 
 const Avatars = ({Avatar}) => {

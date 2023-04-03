@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Open+Sans:wght@300&family=STIX+Two+Math&display=swap');
 
+html{
+    background-color: #1d1d1d;
+}
+
 body{
     background: #1d1d1d url(https://gamepedia.cursecdn.com/deadbydaylight_gamepedia_en/0/05/Tbl-bg.jpg);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border-color: red;
 }
-body::-webkit-scrollbar{
+*::-webkit-scrollbar{
     width: 10px;
     height: 7px;
 }
-body::-webkit-scrollbar-thumb{
+*::-webkit-scrollbar-thumb{
     background:#cecece70;
     border-radius: 10px;
 }
@@ -27,16 +32,20 @@ a:link{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px 0 0 0;
-    text-shadow:0px 0px 3px #ffffff;
-    transition: .5s;
+    margin: 50px 0 0 0;
     max-width: 100%;
     max-height: 250px;
     font-family: 'STIX Two Math', serif;
 }
-.title:hover{
+.title h1{
+    text-shadow:0px 0px 3px #ffffff;
+    transition: .5s;
+    cursor:default;
+}
+.title h1:hover{
     text-shadow:0px 0px 6px #ffffff;
 }
+
 .title img{
     margin-top: 41px;
     max-width: 60px;
@@ -46,10 +55,15 @@ a:link{
     font-size: 55px;
 }
 
-.separador-titulo{
-    height: 2px;
+.scroll{
+    width: 50px;
+    height: 50px;
+}
+
+.line2{
+    height: 3px;
+    width: 700px;
     background: #ffffff;
     border: none;
-    opacity: .5;
-    width: 90%;
+    opacity: .3;
 }

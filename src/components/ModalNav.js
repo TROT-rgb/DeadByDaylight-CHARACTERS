@@ -19,6 +19,8 @@ const Modal = ( {isOpen, closeModal} ) => {
                 <h4>Conecta tu billetera con Metamask</h4>
                 <img src={Imagenes.logometamask}></img>
                 <button onClick={connect} className="item-modal">Conectar Billetera</button>
+                <a href='https://metamask.io/download/' className="item-modal"
+                target="_blank" rel="noreferrer">Descargar Metamask</a>
                 <a href="https://store.steampowered.com/agecheck/app/381210/"className="item-modal" 
                 target="_blank" rel="noreferrer">Comprar juego en STEAM</a>
             </div>
