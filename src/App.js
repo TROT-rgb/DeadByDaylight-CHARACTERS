@@ -22,6 +22,7 @@ function App() {
         <Nav />
         <br></br>
         <Slider />
+        <div className='scroll' id="title0"></div>
         <Info />
         <hr className='line2' ></hr>
         <div className='scroll' id="title3"></div>

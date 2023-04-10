@@ -1,8 +1,8 @@
 .container-info{
     color: #ffffff;
     padding: 10px;
-    margin: 110px 110px 100px 110px;
-    margin-top: 100px;
+    margin: 100px 20px 100px 20px;
+    margin-top: 50px;
 }
 
 .info-article{
@@ -26,8 +26,7 @@
 
 .info-article div{
     max-width: 600px;
-    max-height: 400px;
-    overflow: auto;
+    min-height: 400px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -55,5 +54,18 @@
 @media only screen and (max-width:1319px){
     .line{
         display: block;
+    }
+}
+
+@media only screen and (max-width:930px){
+    .container-info{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .info-article img{
+        max-width: 250px;
+        margin: 40px;
     }
 }
