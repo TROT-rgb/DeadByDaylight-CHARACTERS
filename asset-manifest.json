@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DeadByDaylight-CHARACTERS/static/css/main.3704ad00.chunk.css",
-    "main.js": "/DeadByDaylight-CHARACTERS/static/js/main.58302f0e.chunk.js",
-    "main.js.map": "/DeadByDaylight-CHARACTERS/static/js/main.58302f0e.chunk.js.map",
+    "main.js": "/DeadByDaylight-CHARACTERS/static/js/main.29c43500.chunk.js",
+    "main.js.map": "/DeadByDaylight-CHARACTERS/static/js/main.29c43500.chunk.js.map",
     "runtime-main.js": "/DeadByDaylight-CHARACTERS/static/js/runtime-main.9af4efc4.js",
     "runtime-main.js.map": "/DeadByDaylight-CHARACTERS/static/js/runtime-main.9af4efc4.js.map",
     "static/css/2.df660dd2.chunk.css": "/DeadByDaylight-CHARACTERS/static/css/2.df660dd2.chunk.css",
@@ -129,6 +129,6 @@
     "static/css/2.df660dd2.chunk.css",
     "static/js/2.45d637fb.chunk.js",
     "static/css/main.3704ad00.chunk.css",
-    "static/js/main.58302f0e.chunk.js"
+    "static/js/main.29c43500.chunk.js"
   ]
 }
